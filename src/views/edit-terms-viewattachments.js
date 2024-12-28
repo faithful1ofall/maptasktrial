@@ -181,7 +181,7 @@ const EditTermsViewattachments = (props) => {
                           </div>
                           <img
                             alt="iconpenciledit1332"
-                            src="https://play.teleporthq.io/static/svg/default-img.svg"
+                            src="/external/icon-edit.svg"
                             className="edit-terms-viewattachments-iconpenciledit"
                           />
                         </div>
@@ -217,7 +217,7 @@ const EditTermsViewattachments = (props) => {
                                     <div className="edit-terms-viewattachments-avatars3">
                                       <img
                                         alt="ImageI133"
-                                        src="https://play.teleporthq.io/static/svg/default-img.svg"
+                                        src="/external/imagei119-j789-200h.png"
                                         className="edit-terms-viewattachments-image3"
                                       />
                                       <span className="edit-terms-viewattachments-text130 ParagraphSmallSemibold">
@@ -976,7 +976,7 @@ const EditTermsViewattachments = (props) => {
                           <div className="edit-terms-viewattachments-frame1618868720">
                             <img
                               alt="iconsigndocI133"
-                              src="https://play.teleporthq.io/static/svg/default-img.svg"
+                              src="/external/iconsigndoci119-ucw.svg"
                               className="edit-terms-viewattachments-iconsigndoc2"
                             />
                             <div className="edit-terms-viewattachments-frame16188687191">
@@ -993,7 +993,7 @@ const EditTermsViewattachments = (props) => {
                           <div className="edit-terms-viewattachments-frame1618868690">
                             <img
                               alt="iconchevrondownI133"
-                              src="https://play.teleporthq.io/static/svg/default-img.svg"
+                              src="/external/iconchevrondowni119-vsrn.svg"
                               className="edit-terms-viewattachments-iconchevrondown"
                             />
                           </div>
