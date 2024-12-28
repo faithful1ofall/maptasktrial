@@ -1022,7 +1022,7 @@ const EditTermsViewattachments = (props) => {
                               Submit
                             </button>
                             
-                          </span>
+                         </span>
 
                 
                         </div>

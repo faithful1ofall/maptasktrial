@@ -327,7 +327,7 @@ const Sidebar = () => {
                     Mark Benson
                 </span>
                 <span className="view-pending-text114 ParagraphSmallRegular1">
-                    markbenson@coremed.com
+                    markbenson@core...
                 </span>
                 </div>
             </div>
