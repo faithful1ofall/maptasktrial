@@ -1,37 +1,15 @@
-import React, { useState, lazy, Suspense } from 'react'
+import React from 'react'
 import { Helmet } from 'react-helmet'
 import { useHistory } from 'react-router-dom'
 import './view-pending.css'
 import Sidebar from '../components/Sidebar'
 import Header from '../components/Header'
 
-const Alert1 = lazy(() => import('./alert1'))
-const Alert = lazy(() => import('./alert'))
-const Frame1618868946 = lazy(() => import('./frame1618868946'))
-
 const ViewPending = (props) => {
-  const [showAlert1, setShowAlert1] = useState(false)
-  const [showAlert, setShowAlert] = useState(false)
-  const [isLoading, setIsLoading] = useState(false)
   const history = useHistory();
 
   const handleRespond = () => {
     history.push('/edititeminfo');
-  //  setShowAlert1(true)
-  }
-
-  const handleConfirm = () => {
-    setShowAlert1(false)
-    setIsLoading(true)
-    // Simulate sending quote
-    setTimeout(() => {
-      setIsLoading(false)
-      setShowAlert(true)
-    }, 2000) // Show loading for 2 seconds
-  }
-
-  const handleCloseAlert = () => {
-    setShowAlert(false)
   }
 
 
