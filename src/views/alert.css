@@ -1,0 +1,125 @@
+.alert-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.alert-alert {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15000000596046448) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: var(--dl-color-shade-white);
+}
+ 
+.alert-leftborder {
+  gap: 10px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.alert-borderstreak {
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+}
+ 
+.alert-alert-container {
+  gap: 12px;
+  display: flex;
+  padding: 6px 8px;
+  overflow: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  border-color: rgba(228, 231, 236, 1);
+  border-style: solid;
+  border-width: 1px 1px 1px 0;
+  border-radius: 4px;
+}
+ 
+.alert-miscicon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(181, 227, 196, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: var(--dl-color-success-50);
+}
+ 
+.alert-iconcheckcircle {
+  top: 6px;
+  left: 6px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+}
+ 
+.alert-textsection {
+  gap: 1px;
+  display: flex;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.alert-text {
+  color: var(--dl-color-grey-900);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 125.00000476837158%;
+}
+ 
+.alert-close {
+  gap: 6px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.alert-dividers {
+  width: 24px;
+  height: 1px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+}
+ 
+.alert-divider {
+  top: 0px;
+  left: 0px;
+  width: 24px;
+  height: 1px;
+  position: absolute;
+  align-self: stretch;
+}
+ 
+.alert-closebutton {
+  gap: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.alert-iconmultiply {
+  width: 20px;
+  height: 20px;
+}
